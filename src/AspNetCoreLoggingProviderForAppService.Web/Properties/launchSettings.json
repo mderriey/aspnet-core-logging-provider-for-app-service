@@ -12,7 +12,9 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "HOME": "<replace-with-absolute-path-to-the-home-directory-of-the-git-repository>",
+        "WEBSITE_SITE_NAME": "AspNetCoreLoggingProviderForAppService.Web"
       }
     },
     "AspNetCoreLoggingProviderForAppService.Web": {
